@@ -3,5 +3,6 @@
 ```
 brew install deno
 
-deno run --allow-net index.ts
+deno bundle --unstable --importmap=import-map.json ./client.jsx ./static/bundle.js
+deno run --allow-net --allow-read --unstable --importmap=import-map.json ./server.tsx
 ```

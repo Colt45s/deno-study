@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "react": "https://dev.jspm.io/react",
+    "react-dom/": "https://dev.jspm.io/react-dom/",
+    "react-dom": "https://dev.jspm.io/react-dom"
+  }
+}
